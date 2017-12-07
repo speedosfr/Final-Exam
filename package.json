@@ -1,0 +1,29 @@
+{
+  "name": "Final-Exam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corneadoug/Final-Exam.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/corneadoug/Final-Exam/issues"
+  },
+  "homepage": "https://github.com/corneadoug/Final-Exam#readme",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.3.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-chrome-launcher": "^2.0.0"
+  }
+}
