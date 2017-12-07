@@ -1,16 +1,20 @@
-# Final-Exam
+# Exo-03
 
-Cet Exam final durera 1h30, et sera par groupe de 2.
+Pour cet _exercice_, il vous faudra donner votre avis
 
-Il y a 3 exercices et chacun se trouve dans une branche de ce **Repository** (`exo-01`, `exo-02`, `exo-03`)
+## Methode de travail
 
-## Support
+* Il vous faudra creer une branche `solution/exo-03` a partir de `exo-03` et travailler dedans
+* A la fin de l'exercice, vous devrez creer une **Pull Request** de `solution/exo-03` vers `exo-03` **MAIS NE PAS LA MERGER**
 
-* Vous avez le droit a: Internet, [Le wiki](https://github.com/corneadoug/formation-IC/wiki), vos notes et anciens exos
-* Vous n'avez pas le droit: De communiquer avec d'autres groupes
+## Exercice
 
-## Avant de commencer!
+#### Good and Bad
 
-* Votre chef de groupe devra faire un **Fork** de ce repository
-* Il devra ensuite inviter comme collaborateur: `corneadoug` ainsi que son camarade d'exam
-* Ajoutez dans ce fichier `README.md` de la branche `master` le nom et prenom des 2 membres du groupe.
+La mission de chaque membre du groupe si vous l'acceptez:
+
+* Creer un dossier ayant comme nom son nom de famille
+* Creer 2 fichiers: `good.md` et `bad.md`
+* Ecrire dans `good.md` ce qu'il a aimer dans le cours
+* Ecrire dans `bad.md` ce que je dois ameliorer dans le cours pour le prochain module **AngularJS**
+
