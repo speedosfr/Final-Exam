@@ -19,20 +19,27 @@ describe('Test des parametres de la fonction', function() {
 describe('Test resultats de la fonction', function() {
 	
 	it('doit convertir des USD dans les autres monnaies', function() {
-		
-		        
+	    	expect(convertisseur('USD', 1, 'NZD')).toEqual(1.45);
+        expect(convertisseur('USD', 1, 'KRW')).toEqual(1086);
+        expect(convertisseur('USD', 1, 'EUR')).toEqual(0.84);
     });
     
     it('doit convertir des EUR dans les autres monnaies', function() {
-		
+        expect(convertisseur('EUR', 1, 'NZD')).not.toBe(null);
+        expect(convertisseur('EUR', 1, 'KRW')).not.toBe(null);
+        expect(convertisseur('EUR', 1, 'USD')).not.toBe(null);
     });
 
     it('doit convertir des KRW dans les autres monnaies', function() {
-		
+		expect(convertisseur('NZD', 1, 'USD')).not.toBe(null);
+        expect(convertisseur('NZD', 1, 'KRW')).not.toBe(null);
+        expect(convertisseur('NZD', 1, 'USD')).not.toBe(null);
     });
 
     it('doit convertir des NZD dans les autres monnaies', function() {
-		
+		expect(convertisseur('KRW', 1, 'EUR')).not.toBe(null);
+        expect(convertisseur('KRW', 1, 'KRW')).not.toBe(null);
+        expect(convertisseur('KRW', 1, 'USD')).not.toBe(null);
     });
 
      it('ne doit pas convertir des mauvais montants', function() {
