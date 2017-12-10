@@ -14,3 +14,7 @@ Il y a 3 exercices et chacun se trouve dans une branche de ce **Repository** (`e
 * Votre chef de groupe devra faire un **Fork** de ce repository
 * Il devra ensuite inviter comme collaborateur: `corneadoug` ainsi que son camarade d'exam
 * Ajoutez dans ce fichier `README.md` de la branche `master` le nom et prenom des 2 membres du groupe.
+
+## Travail effectué conjointement par :
+* Julien Viaud
+* Lecomte Laurent
