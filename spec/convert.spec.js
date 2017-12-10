@@ -7,8 +7,7 @@ describe('Test des parametres de la fonction', function() {
     });
     
   it('les 3 parametres doivent etre du bon type', function() {
-	expect(convertisseur('abc', 5,'abc')).not.toBe(null);
-        expect(convertisseur(5,25,'abc')).toBe(null);
+	expect(convertisseur(5,25,'abc')).toBe(null);
         expect(convertisseur('acd',17,25)).toBe(null);
         expect(convertisseur('acd','cbh','vgh')).toBe(null);
         expect(convertisseur(1,2,3)).toBe(null);
