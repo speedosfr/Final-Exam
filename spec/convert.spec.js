@@ -45,7 +45,7 @@ describe('Test resultats de la fonction', function() {
      it('ne doit pas convertir des mauvais montants', function() {
 	expect(convertisseur('USD',2,'EUR')).not.toBe(null);
         expect(convertisseur('USD',0,'EUR')).toBe(null);
-        expect(convertisseur('USD',,'EUR')).toBe(null);
+        expect(convertisseur('USD',null,'EUR')).toBe(null);
         expect(convertisseur('USD',-5,'EUR')).toBe(null);
     });
 
