@@ -1,7 +1,7 @@
 ## Travail effectué conjointement par :
 * Julien Viaud
 * Lecomte Laurent
-
+* Jerome Coubronne
 
 
 
